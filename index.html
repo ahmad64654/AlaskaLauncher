@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alaska Launcher — a fast, clean Minecraft launcher for Windows</title>
+  <meta name="description" content="Free Minecraft: Java Edition launcher for Windows. Microsoft and offline accounts, Fabric, Forge, NeoForge and Quilt, Modrinth mods, NameMC skins and one-click server join. No ads, no tracking." />
+  <meta name="theme-color" content="#121613" />
+  <meta property="og:title" content="Alaska Launcher" />
+  <meta property="og:description" content="Minecraft, launched in seconds. Free for Windows — no ads, no tracking." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/screens/play.webp" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/logo/alaska-icon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&family=Silkscreen&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/design-tokens.css" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar" id="top">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="Alaska Launcher home">
+        <img src="assets/logo/alaska-icon-180.png" alt="" width="32" height="32" />
+        <span>Alaska Launcher</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#install">Install</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-ghost btn-sm" data-download href="https://github.com/ahmad64654/AlaskaLauncher/releases/latest">Download</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================================================= HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-sky" id="hero-sky" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Free · Windows 10 &amp; 11</p>
+          <h1 id="hero-title">Minecraft, launched <span class="hl">in seconds.</span></h1>
+          <p class="lead">A fast, clean launcher for Minecraft: Java Edition. Every version and mod loader, Modrinth mods, NameMC skins and one-click servers — with no ads and no tracking.</p>
+          <div class="cta-row">
+            <span class="play-wrap"><a class="btn-play" data-download href="https://github.com/ahmad64654/AlaskaLauncher/releases/latest">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Download for Windows</a></span>
+            <a class="btn btn-ghost" href="#features">See what it does</a>
+          </div>
+          <p class="meta" id="release-meta">Version <b data-version>1.0.0</b> · <span data-size>82 MB</span> · 64-bit installer</p>
+        </div>
+        <figure class="hero-shot">
+          <div class="window">
+            <div class="window-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+            <img src="assets/screens/play.webp" alt="Alaska Launcher Play screen: a pixel landscape banner, a big orange Play button and instance cards for Fabric, Forge, NeoForge and Quilt" width="1600" height="1000" fetchpriority="high" />
+          </div>
+        </figure>
+      </div>
+      <ul class="loaders wrap" aria-label="Supported mod loaders">
+        <li class="l-vanilla">Vanilla</li><li class="l-fabric">Fabric</li><li class="l-forge">Forge</li><li class="l-neoforge">NeoForge</li><li class="l-quilt">Quilt</li>
+      </ul>
+    </section>
+
+    <!-- ================================================= FEATURE SHOWCASE -->
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="wrap">
+        <p class="eyebrow center">What you get</p>
+        <h2 id="features-title" class="center">Everything in one launcher</h2>
+
+        <article class="feature">
+          <div class="feature-copy">
+            <h3>Pick a world, press Play</h3>
+            <p>Every instance is a card with its own version and loader. Choose one, press the big orange button, and you're in — about 6 seconds after the first launch, because game files download in the background while you browse.</p>
+            <ul class="ticks">
+              <li>Vanilla, Fabric, Forge, NeoForge and Quilt on any version</li>
+              <li>Uses your real <code>.minecraft</code> folder, or a private one per instance</li>
+              <li>Java is found or downloaded for you</li>
+            </ul>
+          </div>
+          <div class="feature-shot"><img src="assets/screens/play.webp" alt="Play screen with instance cards" width="1600" height="1000" loading="lazy" /></div>
+        </article>
+
+        <article class="feature reverse">
+          <div class="feature-copy">
+            <h3>Mods without the hassle</h3>
+            <p>Search Modrinth from inside the launcher and install mods, resource packs, shaders and modpacks. Required dependencies come along automatically.</p>
+            <ul class="ticks">
+              <li><b>⚡ Performance pack</b> — Sodium, Lithium, FerriteCore and more in one click</li>
+              <li>Turn any mod on or off, or delete a few at once</li>
+              <li>Warns you when a mod doesn't match your loader</li>
+            </ul>
+          </div>
+          <div class="feature-shot"><img src="assets/screens/my-mods.webp" alt="My mods tab with enable switches and Performance badges" width="1600" height="1000" loading="lazy" /></div>
+        </article>
+
+        <article class="feature">
+          <div class="feature-copy">
+            <h3>Skins from NameMC, in one click</h3>
+            <p>Browse trending NameMC skins in a launcher window, preview any of them in 3D, and press <b>Use</b> or <b>Save</b>. Or paste a username to copy that player's skin.</p>
+            <ul class="ticks">
+              <li>Drag-to-rotate 3D preview with classic and slim arms</li>
+              <li>A skin library you can switch between anytime</li>
+              <li>Offline accounts start as Steve</li>
+            </ul>
+          </div>
+          <div class="feature-shot"><img src="assets/screens/namemc.webp" alt="NameMC skin browser with Use and Save buttons on every skin" width="1308" height="904" loading="lazy" /></div>
+        </article>
+
+        <article class="feature reverse">
+          <div class="feature-copy">
+            <h3>Find a server in seconds</h3>
+            <p>Online and Cracked tabs list recommended servers first, then every server of that type from a public directory — with live player counts, ping and a search bar. One click joins.</p>
+            <ul class="ticks">
+              <li>Warns you before joining a premium server with an offline account</li>
+              <li>Save your own servers and pick which instance joins them</li>
+            </ul>
+          </div>
+          <div class="feature-shot"><img src="assets/screens/servers.webp" alt="Servers page with Online and Cracked tabs and recommended servers" width="1600" height="1000" loading="lazy" /></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================================================= FEATURE GRID -->
+    <section class="section alt" aria-labelledby="more-title">
+      <div class="wrap">
+        <h2 id="more-title" class="center">And the details that matter</h2>
+        <ul class="grid">
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><h3>Microsoft &amp; offline</h3><p>Sign in with Microsoft, or play offline with any username.</p></li>
+          <li><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg><h3>Game console window</h3><p>Live logs with color-coded errors and clear crash details.</p></li>
+          <li><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg><h3>Smoother gameplay</h3><p>Tuned Java settings and higher game priority, on by default.</p></li>
+          <li><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v12h14V8M10 12h4"/></svg><h3>World backups</h3><p>Back up any world to a zip, or restore from the Recycle Bin.</p></li>
+          <li><svg viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8M12 13v8"/></svg><h3>Share modpacks</h3><p>Export an instance as <code>.mrpack</code> or <code>.zip</code>.</p></li>
+          <li><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg><h3>Four themes</h3><p>Tundra, Aurora, Glacier and Midnight Sun.</p></li>
+          <li><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><h3>Private by design</h3><p>No ads, analytics or telemetry. Your data stays on your PC.</p></li>
+          <li><svg viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z"/></svg><h3>Tray quick-play</h3><p>Play or stop your last instance from the system tray.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================================================= INSTALL -->
+    <section class="section" id="install" aria-labelledby="install-title">
+      <div class="wrap narrow">
+        <p class="eyebrow center">Install</p>
+        <h2 id="install-title" class="center">Up and running in a minute</h2>
+        <ol class="steps">
+          <li><span class="n">1</span><div><h3>Download the installer</h3><p><a data-download href="https://github.com/ahmad64654/AlaskaLauncher/releases/latest"><span data-file>AlaskaLauncher-Setup-1.0.0.exe</span></a> from GitHub.</p></div></li>
+          <li><span class="n">2</span><div><h3>Run it</h3><p>If Windows shows <b>“Windows protected your PC”</b>, click <b>More info → Run anyway</b>. The installer isn't code-signed yet, so Windows doesn't recognize it.</p></div></li>
+          <li><span class="n">3</span><div><h3>Sign in and play</h3><p>Choose a folder (no admin needed), then sign in with Microsoft or continue offline.</p></div></li>
+        </ol>
+        <div class="verify">
+          <div><h3>Verify your download</h3><p>Compare the SHA-256 checksum in PowerShell: <code>Get-FileHash .\<span data-file>AlaskaLauncher-Setup-1.0.0.exe</span></code></p></div>
+          <div class="hash"><code id="sha">6F82AECB2AB502014E23D5F82C735B854124E7F1C2A7AED679D9D11B75929736</code><button type="button" class="btn btn-ghost btn-sm" id="copy-sha" aria-label="Copy SHA-256 checksum">Copy</button></div>
+        </div>
+        <p class="req">Requires Windows 10 or 11 (64-bit). Uninstall anytime from Settings → Apps — your worlds and settings are kept.</p>
+      </div>
+    </section>
+
+    <!-- ================================================= FAQ -->
+    <section class="section alt" id="faq" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <h2 id="faq-title" class="center">Questions</h2>
+        <div class="faq">
+          <details><summary>Is Alaska Launcher made by Mojang or Microsoft?</summary><p>No. It's an independent launcher. Minecraft game files are downloaded directly from Mojang's servers, and you sign in on Microsoft's own page — the launcher never sees your password.</p></details>
+          <details><summary>Do I need to own Minecraft?</summary><p>To play on online (premium) servers and Realms, yes — sign in with the Microsoft account that owns Minecraft: Java Edition. Offline accounts work for singleplayer, LAN and servers that allow them.</p></details>
+          <details><summary>Why does Windows warn me when I run it?</summary><p>The installer isn't code-signed yet, so Windows SmartScreen doesn't know it. Click <b>More info → Run anyway</b>. You can check the file against the SHA-256 checksum above.</p></details>
+          <details><summary>Will it touch my existing .minecraft folder?</summary><p>By default instances use your normal <code>.minecraft</code> folder, so your worlds and resource packs are right there. Any instance can use its own private folder instead, and deleting an instance never deletes your <code>.minecraft</code>.</p></details>
+          <details><summary>Does it collect any data?</summary><p>No. There are no ads, analytics or telemetry. Accounts, settings and files stay on your computer.</p></details>
+          <details><summary>Is there a macOS or Linux version?</summary><p>Not yet — the current release is for Windows 10 and 11 (64-bit).</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================= FINAL CTA -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="final-sky" id="final-sky" aria-hidden="true"></div>
+      <div class="wrap final-inner">
+        <h2 id="final-title">Ready to play?</h2>
+        <p>Free for Windows. No ads. No tracking.</p>
+        <span class="play-wrap"><a class="btn-play" data-download href="https://github.com/ahmad64654/AlaskaLauncher/releases/latest">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download for Windows</a></span>
+        <p class="meta"><a href="https://github.com/ahmad64654/AlaskaLauncher/releases">All releases on GitHub</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="brand"><img src="assets/logo/alaska-icon-180.png" alt="" width="28" height="28" /><span>Alaska Launcher</span></div>
+      <nav aria-label="Footer"><a href="https://github.com/ahmad64654/AlaskaLauncher">GitHub</a><a href="https://github.com/ahmad64654/AlaskaLauncher/releases">Releases</a><a href="#faq">FAQ</a></nav>
+      <p class="legal">NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT. Minecraft is a trademark of Mojang AB. This website uses no cookies or tracking.</p>
+    </div>
+  </footer>
+
+  <script src="assets/site.js" defer></script>
+</body>
+</html>
